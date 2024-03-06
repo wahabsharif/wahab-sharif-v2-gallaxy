@@ -59,9 +59,10 @@ const Hero = () => {
             className={`font-black lg:text-[90px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-20 text-white`}
           >
             Hi, I'm{" "}
-            <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[60px] lg:text-[110px]">
+            <p className="neon text-[60px] lg:text-[110px]">Wahab Sharif</p>
+            {/* <p className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[60px] lg:text-[110px]">
               Wahab Sharif
-            </p>
+            </p> */}
           </h1>
         </div>
       </div>
