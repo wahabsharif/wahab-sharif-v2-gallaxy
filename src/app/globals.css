@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@400..900&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
   margin: 0;
   padding: 0;
+  width: auto;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color-scheme: dark;
   -webkit-tap-highlight-color: transparent;
 }
@@ -294,15 +299,34 @@
   color: #00cea8;
   text-shadow: 0 0 15px #9d2eb0, 0 0 20px #9b62e5, 0 0 30px #84f5d5,
     0 0 40px #f356a9, 0 0 50px #463f9e;
-  /* color: transparent;
-  background-image: linear-gradient(
-    to right,
-    #9d2eb0,
-    #9b62e5,
-    #84f5d5,
-    #f356a9,
-    #463f9e
-  );
-  -webkit-background-clip: text;
-  background-clip: text; */
+}
+
+.neon-text {
+  color: #84f5d5;
+  text-align: center;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.neon-text::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #84f5d5;
+  box-shadow: 0 0 10px #84f5d5, 0 0 20px #84f5d5, 0 0 40px #84f5d5,
+    0 0 80px #84f5d5;
+  border-radius: 5px; /* Add border-radius on hover */
+
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.neon-text:hover {
+  color: #000000; /* Change the color on hover */
+}
+
+.neon-text:hover::before {
+  opacity: 1;
 }

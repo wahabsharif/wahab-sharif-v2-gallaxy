@@ -11,5 +11,6 @@
     "threejs",
     "tripguide"
   ],
-  "nuxt.isNuxtApp": false
+  "nuxt.isNuxtApp": false,
+  "search.useGlobalIgnoreFiles": false
 }

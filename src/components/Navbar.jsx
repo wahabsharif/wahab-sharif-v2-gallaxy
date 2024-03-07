@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { navLinks } from "@/constants/constants";
 import { styles } from "@/styles";
 import { menu, close } from "@/assets";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/wahab-sharif-logo-4.svg";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -48,8 +48,8 @@ const Navbar = () => {
           }}
         >
           <Image src={logo} alt="logo" className="w-10 h-10 object-contain" />
-          <p className="text-white text-[29px] font-bold cursor-pointer flex relative right-2 ">
-            &nbsp;
+          <p className="neon-text text-[29px] font-bold cursor-pointer flex relative right-2 ">
+            Wahab&nbsp;
             <span className="sm:block hidden"> </span>
           </p>
         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } neon-text text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a data-scroll-to href={`#${nav.id}`}>

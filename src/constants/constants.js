@@ -14,7 +14,6 @@ import {
   figma,
   carrent,
   jobit,
-  inkSync,
   tracker,
   nextjs,
   socialSphere,
@@ -26,6 +25,13 @@ import {
   sass,
   framerMotion,
   wordpress,
+
+  // === Projects
+  allyAssistance,
+  beaconTechh,
+  castleMarketing,
+  wahabSharifPortfolioVsCode,
+  aeonMarketing,
 } from "../assets";
 
 export const navLinks = [
@@ -142,115 +148,74 @@ const technologies = [
 ];
 
 const projects = [
+  // == Ally Assistance
   {
-    name: "InkSync",
+    name: "Ally Assistance",
     description:
-      "A real-time collaborative whiteboard web application built with NextJs, Express, and Socket.io.",
-    features: [
-      "Users can create a room and invite others to join the room using a unique room code.",
-      "Users can draw on the whiteboard and the changes will be reflected in real-time to all the users in the room.",
-    ],
+      '"Ally Assistance, my latest project, embodies the fusion of innovation and personalized service, marking the pinnacle of my passion for redefining travel experiences."',
     tags: [
       {
         name: "NextJs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ExpressJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Socket.io",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "orange-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "NodeJs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
     ],
-    image: inkSync,
-    source_code_link: "https://github.com/himanshu8443/InkSync",
-    live_link: "https://www.inksync.cloud/",
+    image: allyAssistance,
+    source_code_link: "https://github.com/wahabsharif/ally-assistance",
+    live_link: "https://ally-assistance.vercel.app/",
   },
+
+  // == Beacon Techh
   {
-    name: "Hayasaka",
+    name: "Beacon Techh",
     description:
-      "A dynamic full-stack music streaming web application with Next.js 13 and MongoDB.",
-    features: [
-      "User authentication using NextAuth.js with JWT and OAuth providers.",
-      "Redux to Manage app state effectively.",
-      "Play, pause, skip, and control the playback of songs.",
-      "Users can Create, update and delete their own playlists.",
-      "Add songs to favorites in one click.",
-      "Auto adds similar songs to the queue.",
-      "Swipe and touch gestures for touch-responsive devices.",
-      "Display song details such as title, artist, album, and album artwork.",
-      "PWA (Progressive Web App) support. ",
-    ],
+      '"Beacon Tech: Illuminating brands in the digital era with innovative solutions, creative flair, and strategic expertise, guiding businesses through web and app development to digital marketing success."',
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
       {
-        name: "nextjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "nextauth",
+        name: "CSS",
         color: "blue-text-gradient",
       },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/himanshu8443/hayasaka",
-    live_link: "https://hayasaka.live/",
+    image: beaconTechh,
+    source_code_link: "https://github.com/wahabsharif/beacontech-react-1.0",
+    live_link: "https://beacontech-react.vercel.app/",
   },
+
+  // == Castle Marketing
   {
-    name: "Study Notion",
-    description: "Developed an educational technology website with CMS.",
-    features: [
-      "Implemented Email verification and using OTP user authentication and login/signup functionality using JWT for secure access to the platform.",
-      "Students can browse and purchase courses. Instructors can create new courses, edit existing courses, and delete courses they have created.",
-      "Integrated MongoDB database to store user information, course data, and progress tracking.",
-      "Employed RESTful API principles for seamless communication between the frontend and backend systems.",
-      "Razorpay payment integration.",
-      "PWA (Progressive Web App) support.",
-    ],
+    name: "Castle Marketing",
+    description:
+      '"Castle Marketing: Your trusted partner in Pakistans real estate prioritizing investor security client satisfaction and dream achievement."',
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "NextJs",
+        color: "Black-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ExpressJs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
@@ -258,74 +223,62 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/himanshu8443/Study-Notion-master",
-    live_link: "https://studynotion.fun/",
+    image: castleMarketing,
+    source_code_link:
+      "https://github.com/wahabsharif/castle-marketing-next-1.0",
+    live_link: "https://www.castlemarketing.pk/",
   },
+
+  // == Wahab Sharif Portfolio Vs Code Version
   {
-    name: "FlipKart Price Tracker",
-    description:
-      "Chrome extension to track FlipKart product prices and send an alert to users when prices go below the user-selected price.",
-    features: [
-      "Users can add products to the watchlist by clicking on the extension icon on the product page.",
-      "Users can set a price alert by entering the desired price for the product.",
-    ],
+    name: "Wahab Sharif Portfolio VS Code Version",
+    description: '"My personal portfolio in Vs Code Version."',
     tags: [
       {
-        name: "JavaScript",
-        color: "blue-text-gradient",
+        name: "NextJs",
+        color: "black-text-gradient",
       },
       {
-        name: "Chrome Extension",
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "ReactJs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tracker,
-    source_code_link: "https://github.com/himanshu8443/FlipKart-Price-Tracker",
-    live_link:
-      "https://chromewebstore.google.com/detail/fliptrack-flipkart-price/pekpfcghlbljghaojdlajgpceebobokd?hl=en",
-  },
-  {
-    name: "Social Sphere",
-    description:
-      "A full-stack social media application with user authentication, infinite scroll, and image and video uploads.",
-    features: [
-      "User authentication using JWT and OAuth providers.",
-      "Infinite scroll for posts.",
-      "Image and video uploads.",
-      "Like, comment, and share posts.",
-      "Follow and unfollow users.",
-      "Dark mode support.",
-    ],
-    tags: [
-      {
-        name: "react",
+        name: "CSS",
         color: "blue-text-gradient",
       },
+    ],
+    image: wahabSharifPortfolioVsCode,
+    source_code_link: "https://github.com/wahabsharif/wahab-sharif-portfolio",
+    live_link: "https://wahab-sharif-portfolio.vercel.app/",
+  },
+
+  // == Aeon Marketing
+  {
+    name: "Aeon Marketing",
+    description:
+      '"Aeon Marketing: Is a Pakistan Based real estate comapny who deals in Societies and Commercial Projects."',
+    tags: [
       {
-        name: "nodejs",
+        name: "NextJs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "NodeJs",
         color: "green-text-gradient",
       },
       {
-        name: "Supabase",
+        name: "Php",
         color: "pink-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "redux",
+        name: "CSS",
         color: "blue-text-gradient",
       },
     ],
-    image: socialSphere,
-    source_code_link: "https://github.com/himanshu8443/SocialSphere",
-    live_link: "https://socialspherex.vercel.app/",
+    image: aeonMarketing,
+    source_code_link:
+      "https://github.com/wahabsharif/Aeon-Marketing-Next-js-1.0",
+    live_link: "https://www.aeonmarketing.com.pk/",
   },
 ];
 

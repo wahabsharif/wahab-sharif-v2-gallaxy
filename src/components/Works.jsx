@@ -19,7 +19,6 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
-  features,
   live_link,
 }) => {
   const refLiveLink = React.useRef(null);
@@ -126,13 +125,6 @@ const ProjectCard = ({
           <p className="mt-2 text-gray-300 text-[19px] font-semibold mb-2">
             {description}
           </p>
-          <ul className=" list-disc text-sm text-gray-300 ml-3 h-0 overflow-hidden">
-            {features.map((feature, index) => (
-              <li key={index} className=" mb-2">
-                {feature}
-              </li>
-            ))}
-          </ul>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-3">

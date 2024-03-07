@@ -30,7 +30,6 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import inkSync from "./ink.png";
 import tracker from "./tracker.png";
 import socialSphere from "./socialSphere.png";
 import bootstrap from "./tech/bootstrap.png";
@@ -38,6 +37,11 @@ import materialUi from "./tech/material-ui.png";
 import sass from "./tech/sass.png";
 import framerMotion from "./tech/framer-motion.svg";
 import wordpress from "./tech/wordpress.png";
+import allyAssistance from "./projects/ally-assistance.png";
+import beaconTechh from "./projects/beacontechh.png";
+import castleMarketing from "./projects/castle-marketing.png";
+import wahabSharifPortfolioVsCode from "./projects/wahab-sharif-portfolio-vs-code.png";
+import aeonMarketing from "./projects/aeon-marketing.png";
 
 export {
   logo,
@@ -67,7 +71,6 @@ export {
   tesla,
   carrent,
   jobit,
-  inkSync,
   tracker,
   socialSphere,
   nextjs,
@@ -80,4 +83,9 @@ export {
   sass,
   framerMotion,
   wordpress,
+  allyAssistance,
+  beaconTechh,
+  castleMarketing,
+  wahabSharifPortfolioVsCode,
+  aeonMarketing,
 };
