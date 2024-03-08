@@ -296,9 +296,10 @@
   top: 0;
 }
 .neon {
-  color: #00cea8;
-  text-shadow: 0 0 15px #9d2eb0, 0 0 20px #9b62e5, 0 0 30px #84f5d5,
-    0 0 40px #f356a9, 0 0 50px #463f9e;
+  color: white;
+  font-weight: 100;
+  text-shadow: -4px -4px 50px #00cea8, 4px -4px 30px #00cea8,
+    -4px 4px 40px #00cea8, 4px 4px 0 #00cea8, 0 0 100px #00cea8;
 }
 
 .neon-text {
