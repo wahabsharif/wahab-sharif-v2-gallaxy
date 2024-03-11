@@ -66,12 +66,15 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px] font-semibold"
         >
-          As a proficient software developer, I bring valuable expertise in
-          TypeScript and JavaScript, coupled with a deep understanding of
-          frameworks such as React, Node.js, and Three.js. My adeptness extends
-          to swift learning and close collaboration with clients to craft
-          effective, scalable, and user-centric solutions addressing tangible
-          challenges. Let's join forces to transform your concepts into reality!
+          As an accomplished software developer, I offer substantial proficiency
+          in TypeScript and JavaScript, complemented by a profound knowledge of
+          frameworks like React, Node.js, Next.js, and Three.js. Additionally,
+          my expertise encompasses Next.js, Tailwind CSS, Node.js, and SCSS. My
+          ability to swiftly grasp new concepts, coupled with a collaborative
+          approach in working closely with clients, empowers me to create
+          impactful, scalable, and user-centric solutions that effectively
+          address real-world challenges. Let's collaborate to bring your ideas
+          to life!
         </motion.p>
         <Image
           src={color_sharp}
