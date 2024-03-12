@@ -12,5 +12,10 @@
     "tripguide"
   ],
   "nuxt.isNuxtApp": false,
-  "search.useGlobalIgnoreFiles": false
+  "search.useGlobalIgnoreFiles": false,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiMagenta",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
+  "animations.Focus-Dimming-Mode": "Full Window"
 }
